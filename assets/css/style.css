@@ -1,0 +1,346 @@
+body {
+color: #555;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-weight: 300;
+line-height: 30px;
+background:#fff;
+overflow-x:hidden;
+}
+html,
+body { height: 100% }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0px;
+  margin-top: 0px; 
+  color: #333;
+  font-weight: 300;
+}
+a {
+text-decoration: none;
+transition: all 0.2s ease 0s;
+}
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+p {
+    margin-bottom: 0;
+}
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-image: linear-gradient(to right, #67bd00 , #a4e100);
+}
+.navbar-default .navbar-nav > li > a{
+    color:#000;
+    font-size: 12px;
+    padding: 6px 12px;
+    border-radius: 15px;
+    text-transform: uppercase;
+
+}
+
+.navbar-default {
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    background: #fff;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    color: #005bbc !important;
+    background-color: transparent;
+}
+.navbar-nav {
+  float: left;
+  margin: 7px 0 0;
+}
+.navbar-brand {
+    height: auto;
+    padding: 10px;
+ }
+.navbar-brand span{
+    padding: 5px 10px;
+    display: block;
+    float: right;
+    font-family: 'Barlow Condensed', sans-serif;
+    color:#222222;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.navbar-brand img {
+    width: 40px;
+    background: white;
+    float: left;
+    
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form { border-color: #fff }
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+border-color: #fff;
+margin-top: 0px;
+}
+
+.menu-top li a {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+section{
+    position: relative;
+   /* clear: both;
+    overflow: hidden;*/
+}
+
+#banner .banner-bg img{
+    width: 100%;
+}
+
+#banner .section-content{
+    padding-top:20%;
+}
+
+
+#experience{
+    padding: 50px 0;
+}
+#experience .section-content > img{
+    padding: 80px 0 20px 0;
+}
+
+#experience ul li a{
+   padding: 10px 20px;
+   border: 1px solid #eeeeee;
+   border-radius: 5px;
+}
+#experience ul li{
+    display: inline-block;  
+}
+#experience ul li a img{
+    height: 30px;
+    padding-right: 15px;
+}
+#experience ul li a{
+    display: block;
+    color: #000;
+}
+#experience ul li.active a{
+    color:#fff;
+    background-image: linear-gradient(to right, #67bd00 , #a4e100);
+    border:none;
+}
+#experience ul li.active a span{
+    color:#fff;
+}
+#experience ul li a span{
+    display: block;
+    line-height: 0;
+    font-size: 10px;
+    color: #777777;
+}
+
+#brand-new-feature .brand-bg img{
+    width: 100%;
+}
+
+#brand-new-feature .section-content{
+    padding-top: 20%;
+}
+
+#brand-new-feature .section-content h3{
+    padding-top: 40px;
+}
+#brand-new-feature .section-content p{
+    font-size: 11px;
+    line-height: 20px;
+}
+#introducing{
+    background-image: url('../images/introducsion.svg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top:80px; 
+}
+#introducing .section-content > img{
+    padding-top:80px;
+}
+
+#our-services{
+    padding-top: 100px;
+}
+#our-services .section-content{
+    padding-bottom: 80px;
+}
+#our-services .section-content p a{
+    color: #74c126;
+}
+#our-services .service-list img{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+#our-services .service-list h4{
+    color:#000;
+    font-weight: 500;
+}
+
+#our-services .service-list p{
+   font-size: 11px;
+   line-height: 20px;
+}
+#our-services .service-list p a{
+    color: #74c126;
+}
+
+#custom{
+    background-image: url('../images/footer bg.svg');
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#custom ul{
+    padding: 20px 0;
+}
+#custom ul li{
+    display: inline-block;
+}
+#custom ul li a{
+   padding: 2px 20px;
+   border: 1px solid #eeeeee;
+   border-radius: 15px;
+   color: #000;
+   font-weight: 500;
+}
+#custom ul li.active a{
+    color:#fff;
+    background-image: linear-gradient(to right, #67bd00 , #a4e100);
+    border:none;
+}
+#custom ul li a:hover{
+    color: white;
+    background-image: linear-gradient(to right, #67bd00 , #a4e100);
+    border:none;
+}
+
+#custom .section-content{
+    padding-top: 40%
+}
+
+#custom .custom-bannar{
+    position: absolute;
+    top: 23%;
+    right: 10%;
+    width: 30%;
+}
+#custom .section-content p a{
+    color: #74c126;
+}
+
+footer h3{
+    font-weight: 400;
+}
+
+footer ul li a{
+    color: #9f9b9b;
+    
+}
+footer ul li a:hover{
+    color: #74c126;
+    
+}
+footer .copyright{
+    margin: 40px 0;
+}
+
+
+@media only screen and (max-width:320px) { 
+    
+}
+
+@media only screen and (max-width:360px) { 
+   
+}
+
+@media only screen and (max-width:480px) { 
+    .menu-top { background-color: #fff }
+    .navbar-default .navbar-nav > li > a {color:#333  !important }
+    .menu-top {
+        color: #222 !important;
+        margin-left: 0px;
+    }
+
+    #custom{
+        background-size: contain;
+    }
+    
+
+
+}
+
+
+@media only screen and (max-width:768px) { 
+    .navbar-default .navbar-nav > li > a {
+        margin-top: 10px;
+        padding: 8px;
+    }
+    .navbar-brand img {
+    margin-left: 10px;
+    }
+    .custom-bannar{
+        display:none;
+    }
+
+    #our-services .service-list img{
+        margin-top: 20px;
+    }
+
+    #custom{
+        height: 500px;
+        margin-top: 50px;
+    }
+    .section-content h1{
+        text-align: center;
+    }
+    #banner .section-content h1, #banner .section-content{
+        margin-bottom: 20px;
+    }
+
+    #custom .section-content {
+
+    padding-top: 0%;
+
+}
+
+
+}
+
+
+
